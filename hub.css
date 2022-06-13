@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root{
+    --Lexendeca: 'Lexend Deca', sans-serif;
+    --Bigshoulders: 'Big Shoulders Display', cursive;
+
+    --orange: hsl(31, 77%, 52%);
+    --dark: hsl(184, 100%, 22%);
+    --verydark: hsl(179, 100%, 13%);
+ 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+       
+}
+
+h1{  
+    width:  100px;
+    font-size: 40px;
+    font-family: var(--Bigshoulders); 
+    color: hsl(0, 0%, 95%);
+
+}
+
+p{
+    width:  225px;
+    font-size: 15px;
+    font-family: var(--Lexendeca); 
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.6;
+}
+
+main{
+    width: 326px;
+    height: 1320px;
+    margin: 85px 24px;
+}
+
+
+#sedan{
+    height: 440px;
+    background-color: var(--orange);
+}
+
+.logosedan{
+    width:  68px;
+    height: 47px;
+    margin: 65px 45px 45px; 
+    padding-top: 45px;
+}
+
+
+.textosedan{
+    width:  231px;
+    height: 196px;
+    margin: 35px 45px 45px; 
+    padding-top: 35px;
+    
+}
+
+.btn-sedan{
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+
+  .btn-sedan a{
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 15px;
+    color: var(--orange);
+    font-family: var(--Lexendeca); 
+    background-color: hsl(0, 0%, 95%);
+    display: inline-block;
+    padding-top: 15px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+
+  .btn-sedan a:hover{
+    background-color: var(--orange);
+    color: hsl(0, 0%, 95%);
+  
+  }
+
+  #suvs{
+    height: 440px;
+    background-color: var(--dark);
+}
+
+.logosuvs{
+    width:  68px;
+    height: 47px;
+    margin: 0px 45px 45px; 
+    padding-top:40px;
+}
+
+
+.textosuvs{
+    width:  231px;
+    height: 196px;
+    margin: 35px 45px 45px; 
+    padding-top: 35px;
+    
+}
+
+.btn-suvs{
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+
+  .btn-suvs a{
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 15px;
+    color: var(--dark);
+    font-family: var(--Lexendeca); 
+    background-color: hsl(0, 0%, 95%);
+    display: inline-block;
+    padding-top: 15px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+
+  .btn-suvs a:hover{
+    background-color: var(--dark);
+    color: white;
+  }
+
+  #luxury{
+    height: 440px;
+    background-color: var(--verydark);
+}
+
+.logoluxury{
+    width:  68px;
+    height: 47px;
+    margin: 0px 45px 45px; 
+    padding-top: 40px;
+}
+
+
+.textolux{
+    width:  231px;
+    height: 196px;
+    margin: 35px 45px 45px; 
+    padding-top: 35px;
+    
+}
+
+.btn-lux{
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+
+  .btn-lux a{
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 15px;
+    color: var(--dark);
+    font-family: var(--Lexendeca); 
+    background-color: hsl(0, 0%, 95%);
+    display: inline-block;
+    padding-top: 15px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+
+  .btn-lux a:hover{
+    background-color: var(--verydark);
+    color: white;
+  }
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media only screen and (min-width:918px){
+
+
+main{
+    margin: 170px 260px 128px;
+    height: 500px;
+    width: 920px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+
+
+p{
+    width:  230px;
+    font-size: 15px;
+
+}
+
+
+#sedan{
+    height: 500px;
+    width: 307px;
+    background-color: var(--orange);
+}
+
+.logosedan{
+    width:  68px;
+    height: 47px;
+    margin: 0px 45px 45px; 
+    padding-top: 40px;
+
+}
+
+
+.textosedan{
+    width:  195px;
+    height: 190px;
+    margin: 0px 40px 40px 45px; 
+    padding-top: 45px;
+    
+}
+
+.btn-sedan{
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 40px;
+  }
+
+
+
+  #suvs{
+    height: 500px;
+    width: 306px;
+    background-color: var(--dark);
+}
+
+.logosuvs{
+    width:  68px;
+    height: 47px;
+    margin: 0px 45px 45px; 
+    padding-top:40px;
+}
+
+
+.textosuvs{
+    width:  195px;
+    height: 190px;
+    margin: 0px 40px 40px 45px; 
+    padding-top: 45px;
+    
+}
+
+.btn-suvs{
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 40px;
+  }
+
+
+
+  #luxury{
+    height: 500px;
+    width: 307px;
+    background-color: var(--verydark);
+}
+
+.logoluxury{
+    width:  68px;
+    height: 47px;
+    margin: 0px 45px 45px; 
+    padding-top: 40px;
+}
+
+
+.textolux{
+    width:  195px;
+    height: 190px;
+    margin: 0px 40px 40px 45px; 
+    padding-top: 45px;;
+    
+}
+
+.btn-lux{
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 40px;
+  }
+
+
+
+}
